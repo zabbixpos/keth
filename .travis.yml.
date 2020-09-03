@@ -4,8 +4,10 @@ language: php
 # Versions of PHP you want your project run with.
 php:
   - 7.4
-
-
+  
+install:
+- gem install bundler
+- gem install travis
 
 # Commands you want to run that will verify your build.
 script:
