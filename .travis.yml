@@ -7,7 +7,7 @@ php:
 
 # Commands you want to run that will verify your build.
 script:
-    - bash teste.sh
+    - echo "ok"
      
 deploy:
   provider: heroku
