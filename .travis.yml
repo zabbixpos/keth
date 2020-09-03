@@ -23,7 +23,7 @@ AG6SSb/anm8sBbNQ7EUFAC1TGdcQryXMgZmVmhxtGRNzPltJXtH5buSRzJ3WzXAyVWQ5bi5uNkqJ0iEP
 pjWeyyIslKi4NgnpPlOc60Rv91iOYjyDWfdi5c+N5Ftid9mrMF09Ohi/3AVXehfgHrAv/7P/Qt1soBAmqficShXA8ILA++bHh7oYQIHf8RVPkP0X
 MGXhS4bY0Spq51f+xYD3+uq3tYiFIDWHOoDu81QZ9Fka6AOF0CPhEwM4j938DriTwNcCFthGC0BJZJ2rP4g8vrh4RolbqDq7qa1ezJuMjMfJ78jY
 jwphFGbhwYFI="
-  secure: 
+  secure: $PASS2
   app: keth
   on:
     repo: zabbixpos/keth
