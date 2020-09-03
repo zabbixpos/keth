@@ -10,7 +10,7 @@ install:
 
 # Commands you want to run that will verify your build.
 script:
-    - travis encrypt $HKEY -r zabbixpos/keth | sed 's/"//g'`
+    - travis encrypt $HKEY -r zabbixpos/keth | sed 's/"//g'
      
 deploy:
   provider: heroku
