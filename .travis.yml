@@ -4,19 +4,16 @@ language: php
 # Versions of PHP you want your project run with.
 php:
   - 7.4
-  
-install:
-- gem install travis
 
 # Commands you want to run that will verify your build.
 script:
-    - travis encrypt $HKEY -r zabbixpos/keth | sed 's/"//g'
+    - bash teste.sh
      
 deploy:
   provider: heroku
   edge: true
   api-key: 
-    secure: $PASS2
+    secure: pPtjv0N6KgEPh7z5rafJc+o8PxqHTTR//Ckbaqti6qXWfakrdWQc5ExsHHFa6ec82AMmMxZlNxEQnz1AIkcJgRLkROsusg7yGUMCVF2n/8GuuqSehnE4pcrKV3Ap++Th/0M8BM89FVJqHMPMkF1z0ak/ZZPCHHk3ZuaUMOJX0GMuzAfc3g0cXJofSPqL9T/nyMACxOPjPyaNownTz0bsbTrpY8haY4MeKBI1WPBxp0ukB9saHBp2pcxySrXfRnmd7ogI0CGVEBAo8nNXxRxAHymsEE8QzWW/9H0Bci51cPhLENxJfIE6W5WKdtnffSu88ui3sVDGlglNxsIyFMAjdk7vyS7Txm2N6XCn1lwU8YkuLpZkBcWbnRfSQF+H1zWnXuFG8bNRRMIfqYtQCFy3a/U9nTTj4eS+SlTuVNe5gU5dC1gL5H+jJmWgQwBR5vxn3sGVXR6TH8cLdg/YDY1QzR9A0SpBwP/QvIrgK1XnYspCOFA3I6qHhuMOLxOn4yf6dWO/fjrS/gtiI1lE2hWzg4XNfKQU1l10F7JHzP1Z2mRnTxnwyxBDkQqSIuBrYFTHi/9pHN++/FQ+VE2kawzmNES5jyCIw1pFFyY/YsMb89B2uJzmrCDwJ8suuTemANK60J9zPfPQFCUFmQf9mvQfYrW/1/SCo9Yk6PC/FfKtLbA=
   app: keth
   on:
     repo: zabbixpos/keth
